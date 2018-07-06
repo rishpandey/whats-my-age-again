@@ -1,0 +1,23 @@
+{
+  "name": "What's my age again?",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This is a reality check.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+        "default_popup": "popup.html"
+  },
+  "default_locale": "en",
+  "options_ui": {
+     "page": "html/options.html",
+     "open_in_tab": false
+  },
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": false
+  }
+}
